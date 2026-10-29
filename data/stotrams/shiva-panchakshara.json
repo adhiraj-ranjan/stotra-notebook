@@ -1,0 +1,50 @@
+{
+  "id": "shiva-panchakshara",
+  "title": "Shiva Panchakshara Stotram",
+  "sanskritTitle": "शिवपञ्चाक्षरस्तोत्रम्",
+  "description": "A five-verse hymn traditionally attributed to Adi Shankaracharya, honoring the five syllables na, ma, śi, va, and ya of namaḥ śivāya.",
+  "difficulty": "Beginner",
+  "verses": [
+    {
+      "number": 1,
+      "sanskrit": "नागेन्द्रहाराय त्रिलोचनाय भस्माङ्गरागाय महेश्वराय ।\nनित्याय शुद्धाय दिगम्बराय तस्मै नकाराय नमः शिवाय ॥१॥",
+      "transliteration": "nāgendrahārāya trilocanāya bhasmāṅgarāgāya maheśvarāya |\nnityāya śuddhāya digambarāya tasmai nakārāya namaḥ śivāya ||",
+      "meaning_hi": "सर्पराज को हार की तरह धारण करने वाले, तीन नेत्रों वाले, शरीर पर भस्म लगाने वाले महेश्वर को नमस्कार है। वे नित्य, शुद्ध और दिशाओं को ही वस्त्र मानने वाले हैं। नमः शिवाय के ‘न’ अक्षररूप शिव को प्रणाम।",
+      "meaning_en": "Salutations to Shiva, who wears the serpent king as a garland, has three eyes, and adorns his body with ash. Eternal, pure, and clothed in the directions, he is honored through the syllable “na” of namaḥ śivāya."
+    },
+    {
+      "number": 2,
+      "sanskrit": "मन्दाकिनीसलिलचन्दनचर्चिताय नन्दीश्वरप्रमथनाथमहेश्वराय ।\nमन्दारपुष्पबहुपुष्पसुपूजिताय तस्मै मकाराय नमः शिवाय ॥२॥",
+      "transliteration": "mandākinīsalilacandanacarcitāya nandīśvarapramathanāthamaheśvarāya |\nmandārapuṣpabahupuṣpasupūjitāya tasmai makārāya namaḥ śivāya ||",
+      "meaning_hi": "गंगा के जल और चंदन से अभिषिक्त, नंदी तथा शिवगणों के स्वामी महेश्वर को प्रणाम। मन्दार और अनेक पुष्पों से जिनकी पूजा होती है, नमः शिवाय के ‘म’ अक्षररूप उन शिव को नमस्कार।",
+      "meaning_en": "Salutations to Maheshvara, anointed with the waters of the heavenly Ganga and sandalwood, lord of Nandi and the attendant hosts, worshipped with mandara and many other flowers. He is honored through the syllable “ma” of namaḥ śivāya."
+    },
+    {
+      "number": 3,
+      "sanskrit": "शिवाय गौरीवदनाब्जवृन्दसूर्याय दक्षाध्वरनाशकाय ।\nश्रीनीलकण्ठाय वृषध्वजाय तस्मै शिकाराय नमः शिवाय ॥३॥",
+      "transliteration": "śivāya gaurīvadanābjavṛndasūryāya dakṣādhvaranāśakāya |\nśrīnīlakaṇṭhāya vṛṣadhvajāya tasmai śikārāya namaḥ śivāya ||",
+      "meaning_hi": "माता गौरी के कमल-समान मुख को सूर्य की भाँति प्रसन्न करने वाले, दक्ष के यज्ञ का विनाश करने वाले, नीलकण्ठ और वृषभ-चिह्न वाली ध्वजा धारण करने वाले शिव को प्रणाम। नमः शिवाय के ‘शि’ अक्षररूप उन्हें नमस्कार।",
+      "meaning_en": "Salutations to Shiva, the sun that makes the lotus-like face of Gauri bloom, the destroyer of Daksha’s sacrifice, the blue-throated lord whose banner bears the bull. He is honored through the syllable “śi” of namaḥ śivāya."
+    },
+    {
+      "number": 4,
+      "sanskrit": "वसिष्ठकुम्भोद्भवगौतमार्यमुनीन्द्रदेवार्चितशेखराय ।\nचन्द्रार्कवैश्वानरलोचनाय तस्मै वकाराय नमः शिवाय ॥४॥",
+      "transliteration": "vasiṣṭhakumbhodbhavagautamāryamunīndradevārcitaśekharāya |\ncandrārkavaiśvānaralocanāya tasmai vakārāya namaḥ śivāya ||",
+      "meaning_hi": "जिनके मस्तक की वसिष्ठ, अगस्त्य, गौतम जैसे श्रेष्ठ ऋषि और देवता पूजा करते हैं, तथा जिनके नेत्र चंद्रमा, सूर्य और अग्नि हैं, नमः शिवाय के ‘व’ अक्षररूप उन शिव को प्रणाम।",
+      "meaning_en": "Salutations to Shiva, whose head is revered by the sages Vasishtha, pot-born Agastya, noble Gautama, and the gods; whose eyes are the moon, sun, and fire. He is honored through the syllable “va” of namaḥ śivāya."
+    },
+    {
+      "number": 5,
+      "sanskrit": "यक्षस्वरूपाय जटाधराय पिनाकहस्ताय सनातनाय ।\nदिव्याय देवाय दिगम्बराय तस्मै यकाराय नमः शिवाय ॥५॥",
+      "transliteration": "yakṣasvarūpāya jaṭādharāya pinākahastāya sanātanāya |\ndivyāya devāya digambarāya tasmai yakārāya namaḥ śivāya ||",
+      "meaning_hi": "यक्ष का रूप धारण करने वाले, जटाधारी, हाथ में पिनाक धनुष रखने वाले, सनातन और दिव्य देव शिव को प्रणाम। दिशाओं को ही वस्त्र मानने वाले नमः शिवाय के ‘य’ अक्षररूप उन्हें नमस्कार।",
+      "meaning_en": "Salutations to Shiva, who appears in the form of a yaksha, wears matted locks, holds the Pinaka bow, and is eternal and divine. Clothed in the directions, he is honored through the syllable “ya” of namaḥ śivāya."
+    }
+  ],
+  "phalashruti": {
+    "sanskrit": "पञ्चाक्षरमिदं पुण्यं यः पठेच्छिवसन्निधौ ।\nशिवलोकमवाप्नोति शिवेन सह मोदते ॥",
+    "transliteration": "pañcākṣaramidaṃ puṇyaṃ yaḥ paṭhecchivasannidhau |\nśivalokamavāpnoti śivena saha modate ||",
+    "meaning_hi": "जो व्यक्ति शिव के सान्निध्य में इस पवित्र पञ्चाक्षर स्तोत्र का पाठ करता है, वह शिवलोक प्राप्त करता है और शिव के साथ आनंदित होता है—ऐसा फल इस स्तोत्र में बताया गया है।",
+    "meaning_en": "The concluding verse says that one who recites this sacred five-syllable hymn in Shiva’s presence attains Shiva’s realm and rejoices in his company."
+  }
+}
