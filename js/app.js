@@ -3,23 +3,24 @@ const searchInput = document.getElementById("searchInput");
 const emptyState = document.getElementById("emptyState");
 
 let stotrams = [];
+let selectedCategory = "all";
 
-// Load stotrams from JSON
 async function loadStotrams() {
     try {
         const response = await fetch("data/stotrams.json");
 
         if (!response.ok) {
-            throw new Error("Failed to load stotrams");
+            throw new Error(`HTTP ${response.status}`);
         }
 
         stotrams = await response.json();
 
-        // renderStotrams(stotrams);
+        console.log("Loaded stotrams:", stotrams);
+
         filterStotrams();
 
     } catch (error) {
-        console.error("Error loading stotrams:", error);
+        console.error("Library loading error:", error);
 
         emptyState.textContent =
             "Unable to load the stotram library. Please refresh the page.";
@@ -123,8 +124,9 @@ function filterStotrams() {
         .trim();
 
     const filtered = stotrams.filter(stotram => {
+
         const matchesCategory =
-            selectedCategory === "all" ||
+            selectedCategory.toLowerCase() === "all" ||
             stotram.deity?.toLowerCase() === selectedCategory.toLowerCase();
 
         const matchesSearch = [
