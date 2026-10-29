@@ -70,6 +70,11 @@
             </div>
 
             <div class="toolbar-right">
+
+                <button id="playAllBtn" class="toolbar-btn play-all-btn">
+                    ▶ Play All
+                </button>
+
                 <button id="expandAllBtn" class="toolbar-btn">
                     Expand All
                 </button>
@@ -77,6 +82,20 @@
                 <button id="collapseAllBtn" class="toolbar-btn">
                     Collapse All
                 </button>
+
+            </div>
+
+        </div>
+
+        <!-- Verse Navigation -->
+        <div class="verse-navigation">
+
+            <div class="navigation-header">
+                <span>Jump to Shloka</span>
+                <span id="navigationCount"></span>
+            </div>
+
+            <div id="verseNavButtons" class="verse-nav-buttons">
             </div>
 
         </div>
@@ -84,6 +103,23 @@
         <!-- Notebook Cells -->
         <section id="notebookCells" class="notebook-cells">
         </section>
+
+        <!-- Bottom Navigation -->
+        <div class="bottom-navigation">
+
+            <button id="previousVerseBtn" class="navigation-btn">
+                ← Previous Shloka
+            </button>
+
+            <span id="currentVerseIndicator">
+                Shloka 1
+            </span>
+
+            <button id="nextVerseBtn" class="navigation-btn">
+                Next Shloka →
+            </button>
+
+        </div>
 
     </main>
 

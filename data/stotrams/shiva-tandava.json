@@ -1,17 +1,129 @@
 {
-    "id": "shiva-tandava",
-    "title": "Shiva Tandava Stotram",
-    "sanskritTitle": "शिवताण्डवस्तोत्रम्",
-    "description": "A powerful Sanskrit hymn traditionally attributed to Ravana, celebrating Lord Shiva's cosmic Tandava dance.",
-    "difficulty": "Advanced",
-    "verses": [
-        {
-            "number": 1,
-            "sanskrit": "जटाटवीगलज्जलप्रवाहपावितस्थले\nगलेऽवलम्ब्य लम्बितां भुजङ्गतुङ्गमालिकाम्।\nडमड्डमड्डमड्डमन्निनादवड्डमर्वयं\nचकार चण्डताण्डवं तनोतु नः शिवः शिवम्॥",
-            "transliteration": "Jaṭāṭavī-galaj-jala-pravāha-pāvita-sthale\nGale'valambya lambitāṃ bhujaṅga-tuṅga-mālikām\nḌamaḍḍamaḍḍamaḍḍaman-nināda-vaḍḍamarvayaṃ\nCakāra caṇḍa-tāṇḍavaṃ tanotu naḥ śivaḥ śivam",
-            "meaning_hi": "भगवान शिव की जटाओं से बहती गंगा के पवित्र जल से उनका कंठ-प्रदेश पावन है। उनके गले में विशाल सर्पों की माला लटक रही है। डमरू की डम-डम ध्वनि के साथ वे प्रचंड ताण्डव नृत्य करते हैं। वे शिव हमारा कल्याण करें।",
-            "meaning_en": "The sacred waters flowing from Lord Shiva's matted locks purify the region around his neck. A magnificent garland of serpents hangs around his neck. As his damaru resounds rhythmically, he performs the fierce Tandava dance. May Lord Shiva grant us auspiciousness.",
-            "audio": "assets/audio/shiva-tandava/verse-01.mp3"
-        }
-    ]
+  "id": "shiva-tandava",
+  "title": "Shiva Tandava Stotram",
+  "sanskritTitle": "शिवताण्डवस्तोत्रम्",
+  "description": "An extended 17-verse Sanskrit hymn traditionally attributed to Ravana, praising Shiva and his cosmic Tandava dance. Verses 16–17 describe the fruits of recitation.",
+  "difficulty": "Advanced",
+  "verses": [
+    {
+      "number": 1,
+      "sanskrit": "जटाटवीगलज्जलप्रवाहपावितस्थले\nगलेऽवलम्ब्य लम्बितां भुजङ्गतुङ्गमालिकाम् ।\nडमड्डमड्डमड्डमन्निनादवड्डमर्वयं\nचकार चण्डताण्डवं तनोतु नः शिवः शिवम् ॥ १॥",
+      "transliteration": "jaṭāṭavīgalajjalapravāhapāvitasthale\ngale’valambya lambitāṃ bhujaṅgatuṅgamālikām\nḍamaḍḍamaḍḍamaḍḍamanninādavaḍḍamarvayaṃ\ncakāra caṇḍatāṇḍavaṃ tanotu naḥ śivaḥ śivam",
+      "meaning_hi": "शिव की जटाओं से गंगा का जल बहता है और उनके गले में सर्पों की माला सुशोभित है। डमरू की गूँज पर वे प्रचण्ड ताण्डव करते हैं। वे हमारा मंगल करें।",
+      "meaning_en": "Water from the Ganga streams through Shiva’s matted hair, while a garland of serpents hangs around his neck. He dances the fierce Tandava to the beat of his drum. May he bless us.",
+      "audio": "assets/audio/shiva-tandava/verse-01.mp3"
+    },
+    {
+      "number": 2,
+      "sanskrit": "जटाकटाहसम्भ्रमभ्रमन्निलिम्पनिर्झरी-\nविलोलवीचिवल्लरीविराजमानमूर्धनि ।\nधगद्धगद्धगज्ज्वलल्ललाटपट्टपावके\nकिशोरचन्द्रशेखरे रतिः प्रतिक्षणं मम ॥ २॥",
+      "transliteration": "jaṭākaṭāhasambhramabhramannilimpanirjharī\nvilolavīcivallarīvirājamānamūrdhani\ndhagaddhagaddhagajjvalallalāṭapaṭṭapāvake\nkiśoracandraśekhare ratiḥ pratikṣaṇaṃ mama",
+      "meaning_hi": "जिनके सिर पर गंगा की लहरें जटाओं में घूमती हैं, जिनके मस्तक पर अग्नि प्रज्वलित है और जो बालचन्द्र धारण करते हैं, उन शिव में मेरा प्रेम हर क्षण बना रहे।",
+      "meaning_en": "May my devotion remain constant toward Shiva, whose locks hold the swirling Ganga, whose forehead blazes with fire, and whose crown bears the young crescent moon."
+    },
+    {
+      "number": 3,
+      "sanskrit": "धराधरेन्द्रनन्दिनीविलासबन्धुबन्धुर-\nस्फुरद्दिगन्तसन्ततिप्रमोदमानमानसे ।\nकृपाकटाक्षधोरणीनिरुद्धदुर्धरापदि\nक्वचिद्दिगम्बरे मनो विनोदमेतु वस्तुनि ॥ ३॥",
+      "transliteration": "dharādharendranandinīvilāsabandhubandhura\nsphuraddigantasantatipramodamānamānase\nkṛpākaṭākṣadhoraṇīniruddhadurdharāpadi\nkvaciddigambare mano vinodametu vastuni",
+      "meaning_hi": "पार्वती के साथ क्रीड़ा से प्रसन्न, समस्त दिशाओं को आनन्दित करने वाले और कृपादृष्टि से विपत्तियों को दूर करने वाले दिगम्बर शिव में मेरा मन रम जाए।",
+      "meaning_en": "May my mind rejoice in sky-clad Shiva, delighted by his play with Parvati, whose compassionate glance can turn away even the gravest misfortune."
+    },
+    {
+      "number": 4,
+      "sanskrit": "जटाभुजङ्गपिङ्गलस्फुरत्फणामणिप्रभा-\nकदम्बकुङ्कुमद्रवप्रलिप्तदिग्वधूमुखे ।\nमदान्धसिन्धुरस्फुरत्त्वगुत्तरीयमेदुरे\nमनो विनोदमद्भुतं बिभर्तु भूतभर्तरि ॥ ४॥",
+      "transliteration": "jaṭābhujaṅgapiṅgalasphuratphaṇāmaṇiprabhā\nkadambakuṅkumadravapraliptadigvadhūmukhe\nmadāndhasindhurasphurattvaguttarīyamedure\nmano vinodamadbhutaṃ bibhartu bhūtabhartari",
+      "meaning_hi": "शिव की जटाओं के सर्पों की मणियों की लालिमा दिशाओं को रंग देती है। हाथी की खाल ओढ़ने वाले समस्त प्राणियों के स्वामी में मेरा मन अद्भुत आनन्द पाए।",
+      "meaning_en": "The gems on the hoods of serpents in Shiva’s hair cast a saffron glow across the directions. May my heart delight in the lord of beings, clothed in an elephant hide."
+    },
+    {
+      "number": 5,
+      "sanskrit": "सहस्रलोचनप्रभृत्यशेषलेखशेखर-\nप्रसूनधूलिधोरणीविधूसराङ्घ्रिपीठभूः ।\nभुजङ्गराजमालया निबद्धजाटजूटकः\nश्रियै चिराय जायतां चकोरबन्धुशेखरः ॥ ५॥",
+      "transliteration": "sahasralocanaprabhṛtyaśeṣalekhaśekhara\nprasūnadhūlidhoraṇīvidhūsarāṅghripīṭhabhūḥ\nbhujaṅgarājamālayā nibaddhajāṭajūṭakaḥ\nśriyai cirāya jāyatāṃ cakorabandhuśekharaḥ",
+      "meaning_hi": "इन्द्र आदि देवताओं के चढ़ाए पुष्पों की धूल से शिव के चरण धूसर हैं। सर्पराज से बँधी जटाएँ और चन्द्रमा से सुशोभित वे शिव हमें स्थायी कल्याण दें।",
+      "meaning_en": "The dust of flowers offered by Indra and the other gods settles at Shiva’s feet. May the moon-crested lord, whose locks are bound by the serpent king, grant enduring well-being."
+    },
+    {
+      "number": 6,
+      "sanskrit": "ललाटचत्वरज्वलद्धनञ्जयस्फुलिङ्गभा-\nनिपीतपञ्चसायकं नमन्निलिम्पनायकम् ।\nसुधामयूखलेखया विराजमानशेखरं\nमहाकपालिसम्पदे शिरो जटालमस्तु नः ॥ ६॥",
+      "transliteration": "lalāṭacatvarajvaladdhanañjayasphuliṅgabhā\nnipītapañcasāyakaṃ namannilimpanāyakam\nsudhāmayūkhalekhayā virājamānaśekharaṃ\nmahākapālisampade śiro jaṭālamastu naḥ",
+      "meaning_hi": "जिनके ललाट की अग्नि ने कामदेव को भस्म किया, जिनके आगे देवता झुकते हैं और जिनके मस्तक पर चन्द्रकला चमकती है, उन जटाधारी शिव का सिर हमारे लिए मंगलकारी हो।",
+      "meaning_en": "May the matted head of Shiva bring us good fortune: his forehead fire consumed Kama, the gods bow before him, and a delicate crescent shines above him."
+    },
+    {
+      "number": 7,
+      "sanskrit": "करालभालपट्टिकाधगद्धगद्धगज्ज्वल-\nद्धनञ्जयाहुतीकृतप्रचण्डपञ्चसायके ।\nधराधरेन्द्रनन्दिनीकुचाग्रचित्रपत्रक-\nप्रकल्पनैकशिल्पिनि त्रिलोचने रतिर्मम ॥ ७॥",
+      "transliteration": "karālabhālapaṭṭikādhagaddhagaddhagajjvala\nddhanañjayāhutīkṛtapracaṇḍapañcasāyake\ndharādharendranandinīkucāgracitrapatraka\nprakalpanaikaśilpini trilocane ratirmama",
+      "meaning_hi": "भयंकर ललाटाग्नि में कामदेव को भस्म करने वाले, और पार्वती के श्रृंगार के कुशल कलाकार त्रिनेत्रधारी शिव के प्रति मेरा प्रेम बना रहे।",
+      "meaning_en": "I cherish the three-eyed Shiva, whose blazing brow reduced the god of desire to ashes and whose gentle artistry adorns Parvati."
+    },
+    {
+      "number": 8,
+      "sanskrit": "नवीनमेघमण्डलीनिरुद्धदुर्धरस्फुरत्-\nकुहूनिशीथिनीतमःप्रबन्धबद्धकन्धरः ।\nनिलिम्पनिर्झरीधरस्तनोतु कृत्तिसिन्धुरः\nकलानिधानबन्धुरः श्रियं जगद्धुरन्धरः ॥ ८॥",
+      "transliteration": "navīnameghamaṇḍalīniruddhadurdharasphurat\nkuhūniśīthinītamaḥprabandhabaddhakandharaḥ\nnilimpanirjharīdharastanotu kṛttisindhuraḥ\nkalānidhānabandhuraḥ śriyaṃ jagaddhurandharaḥ",
+      "meaning_hi": "जिनका कण्ठ अमावस्या की मेघाच्छन्न रात जितना गहरा है, जो गंगा और चन्द्रमा को धारण करते तथा गजचर्म पहनते हैं, वे जगत के आधार शिव हमें समृद्धि दें।",
+      "meaning_en": "May Shiva sustain and bless us: his throat is dark as a cloud-covered new-moon night, he bears the Ganga and the moon, and wears an elephant skin."
+    },
+    {
+      "number": 9,
+      "sanskrit": "प्रफुल्लनीलपङ्कजप्रपञ्चकालिमप्रभा-\nवलम्बिकण्ठकन्दलीरुचिप्रबद्धकन्धरम् ।\nस्मरच्छिदं पुरच्छिदं भवच्छिदं मखच्छिदं\nगजच्छिदान्धकच्छिदं तमन्तकच्छिदं भजे ॥ ९॥",
+      "transliteration": "praphullanīlapaṅkajaprapañcakālimaprabhā\nvalambikaṇṭhakandalīruciprabaddhakandharam\nsmaracchidaṃ puracchidaṃ bhavacchidaṃ makhacchidaṃ\ngajacchidāndhakacchidaṃ tamantakacchidaṃ bhaje",
+      "meaning_hi": "नीलकमल-से श्याम कण्ठ वाले शिव को मैं प्रणाम करता हूँ, जिन्होंने कामदेव, त्रिपुर, सांसारिक बन्धन, यज्ञ के अहंकार, गजासुर, अन्धक और मृत्यु के भय का नाश किया।",
+      "meaning_en": "I worship the blue-throated Shiva, destroyer of desire, the triple cities, worldly bondage, the sacrificial rite, Gajasura, Andhaka, and even Death."
+    },
+    {
+      "number": 10,
+      "sanskrit": "अखर्वसर्वमङ्गलाकलाकदम्बमञ्जरी-\nरसप्रवाहमाधुरीविजृम्भणामधुव्रतम् ।\nस्मरान्तकं पुरान्तकं भवान्तकं मखान्तकं\nगजान्तकान्धकान्तकं तमन्तकान्तकं भजे ॥ १०॥",
+      "transliteration": "akharvasarvamaṅgalākalākadambamañjarī\nrasapravāhamādhurīvijṛmbhaṇāmadhuvratam\nsmarāntakaṃ purāntakaṃ bhavāntakaṃ makhāntakaṃ\ngajāntakāndhakāntakaṃ tamantakāntakaṃ bhaje",
+      "meaning_hi": "जो सर्वमंगला पार्वती की कलाओं की मधुरता में भँवरे की तरह रमते हैं, और काम, त्रिपुर, संसार, यज्ञ, गजासुर, अन्धक तथा मृत्यु का अन्त करते हैं, उन शिव को मैं भजता हूँ।",
+      "meaning_en": "I adore Shiva, like a bee drawn to the sweetness of Parvati’s many graces, who brings an end to desire, the triple cities, rebirth, sacrifice, demons, and Death."
+    },
+    {
+      "number": 11,
+      "sanskrit": "जयत्वदभ्रविभ्रमभ्रमद्भुजङ्गमश्वस-\nद्विनिर्गमत्क्रमस्फुरत्करालभालहव्यवाट् ।\nधिमिद्धिमिद्धिमिद्ध्वनन्मृदङ्गतुङ्गमङ्गल-\nध्वनिक्रमप्रवर्तितप्रचण्डताण्डवः शिवः ॥ ११॥",
+      "transliteration": "jayatvadabhravibhramabhramadbhujaṅgamaśvasa\ndvinirgamatkramasphuratkarālabhālahavyavāṭ\ndhimiddhimiddhimiddhvananmṛdaṅgatuṅgamaṅgala\ndhvanikramapravartitapracaṇḍatāṇḍavaḥ śivaḥ",
+      "meaning_hi": "तेजी से घूमते सर्पों की फुफकार से शिव की ललाटाग्नि भड़कती है। मृदंग की धिमि-धिमि ध्वनि पर उनका प्रचण्ड ताण्डव होता है। उन शिव की जय हो।",
+      "meaning_en": "Victory to Shiva! The breath of his whirling serpents fans the fire upon his brow as his mighty Tandava unfolds to the auspicious beat of the mridanga."
+    },
+    {
+      "number": 12,
+      "sanskrit": "दृषद्विचित्रतल्पयोर्भुजङ्गमौक्तिकस्रजोर्-\nगरिष्ठरत्नलोष्ठयोः सुहृद्विपक्षपक्षयोः ।\nतृणारविन्दचक्षुषोः प्रजामहीमहेन्द्रयोः\nसमं प्रवर्तयन्मनः कदा सदाशिवं भजे ॥ १२॥",
+      "transliteration": "dṛṣadvicitratalpayorbhujaṅgamauktikasrajor\ngariṣṭharatnaloṣṭhayoḥ suhṛdvipakṣapakṣayoḥ\ntṛṇāravindacakṣuṣoḥ prajāmahīmahendrayoḥ\nsamaṃ pravartayanmanaḥ kadā sadāśivaṃ bhaje",
+      "meaning_hi": "मैं कब पत्थर और उत्तम शय्या, सर्प और मोतियों की माला, रत्न और मिट्टी, मित्र और शत्रु, तिनके और सुन्दर नेत्रों, प्रजा और राजा को समान मानकर सदाशिव की आराधना करूँगा?",
+      "meaning_en": "When will I worship eternal Shiva with an equal mind toward stone and fine bedding, snake and pearl garland, jewel and clay, friend and foe, ordinary people and kings?"
+    },
+    {
+      "number": 13,
+      "sanskrit": "कदा निलिम्पनिर्झरीनिकुञ्जकोटरे वसन्\nविमुक्तदुर्मतिः सदा शिरःस्थमञ्जलिं वहन् ।\nविलोललोललोचनो ललामभाललग्नकः\nशिवेति मन्त्रमुच्चरन् कदा सुखी भवाम्यहम् ॥ १३॥",
+      "transliteration": "kadā nilimpanirjharīnikuñjakoṭare vasan\nvimuktadurmatiḥ sadā śiraḥsthamañjaliṃ vahan\nvilolalolalocano lalāmabhālalagnakaḥ\nśiveti mantramuccaran kadā sukhī bhavāmyaham",
+      "meaning_hi": "मैं कब गंगा के तट पर किसी शांत कुंज में रहकर बुरे विचारों से मुक्त होऊँगा, हाथ जोड़कर शिव का ध्यान करूँगा और ‘शिव’ नाम जपते हुए सुख पाऊँगा?",
+      "meaning_en": "When shall I live in a quiet grove beside the Ganga, free from harmful thoughts, hands folded in reverence, finding joy in repeating Shiva’s name?"
+    },
+    {
+      "number": 14,
+      "sanskrit": "निलिम्पनाथनागरीकदम्बमौलमल्लिका-\nनिगुम्फनिर्भरक्षरन्मधूष्णिकामनोहरः ।\nतनोतु नो मनोमुदं विनोदिनीमहर्निशं\nपरश्रियः परं पदं तदङ्गजत्विषां चयः ॥ १४॥",
+      "transliteration": "nilimpanāthanāgarīkadambamaulamallikā\nnigumphanirbharakṣaranmadhūṣṇikāmanoharaḥ\ntanotu no manomudaṃ vinodinīmaharniśaṃ\nparaśriyaḥ paraṃ padaṃ tadaṅajatviṣāṃ cayaḥ",
+      "meaning_hi": "देवांगनाओं के केशों में गुँथे पुष्पों से झरते मधुर मकरन्द के समान मनोहर शिव की दिव्य आभा हमारे हृदय को दिन-रात आनन्दित करे।",
+      "meaning_en": "May the divine radiance of Shiva, evoking the sweetness of nectar from flowers woven into celestial women’s hair, fill our hearts with delight day and night."
+    },
+    {
+      "number": 15,
+      "sanskrit": "प्रचण्डवाडवानलप्रभाशुभप्रचारणी\nमहाष्टसिद्धिकामिनीजनाऽवहूतजल्पना ।\nविमुक्तवामलोचनाविवाहकालिकध्वनिः\nशिवेति मन्त्रभूषणा जगज्जयाय जायताम् ॥ १५॥",
+      "transliteration": "pracaṇḍavāḍavānalaprabhāśubhapracāraṇī\nmahāṣṭasiddhikāminījanāvahūtajalpanā\nvimuktavāmalocanāvivāhakālikadhvaniḥ\nśiveti mantrabhūṣaṇā jagajjayāya jāyatām",
+      "meaning_hi": "‘शिव’ नाम से अलंकृत वह मंगलमयी ध्वनि, जो प्रचण्ड अग्नि जैसी तेजस्वी है और शिव-पार्वती के विवाह के उत्सव की याद दिलाती है, संसार में कल्याण फैलाए।",
+      "meaning_en": "May the auspicious sound adorned with the mantra “Shiva,” radiant like a mighty fire and recalling the celebration of Shiva and Parvati’s wedding, bring blessing to the world."
+    },
+    {
+      "number": 16,
+      "sanskrit": "इमं हि नित्यमेवमुक्तमुत्तमोत्तमं स्तवं\nपठन्स्मरन्ब्रुवन्नरो विशुद्धिमेति सन्ततम् ।\nहरे गुरौ सुभक्तिमाशु याति नान्यथा गतिं\nविमोहनं हि देहिनां सुशङ्करस्य चिन्तनम् ॥ १६॥",
+      "transliteration": "imaṃ hi nityamevamuktamuttamottamaṃ stavaṃ\npaṭhansmaranbruvannaro viśuddhimeti santatam\nhare gurau subhaktimāśu yāti nānyathā gatiṃ\nvimohanaṃ hi dehināṃ suśaṅkarasya cintanam",
+      "meaning_hi": "फलश्रुति के अनुसार, जो व्यक्ति इस स्तोत्र का नियमित पाठ और स्मरण करता है, वह मन की शुद्धि और शिव में भक्ति प्राप्त करता है। शिव का चिंतन मोह को दूर करने वाला माना गया है।",
+      "meaning_en": "The concluding praise says that regular recitation and remembrance of this hymn purify the mind and deepen devotion to Shiva; contemplating Shankara is said to dispel delusion."
+    },
+    {
+      "number": 17,
+      "sanskrit": "पूजावसानसमये दशवक्त्रगीतं\nयः शम्भुपूजनपरं पठति प्रदोषे ।\nतस्य स्थिरां रथगजेन्द्रतुरङ्गयुक्तां\nलक्ष्मीं सदैव सुमुखीं प्रददाति शम्भुः ॥ १७॥",
+      "transliteration": "pūjāvasānasamaye daśavaktragītaṃ\nyaḥ śambhupūjanaparaṃ paṭhati pradoṣe\ntasya sthirāṃ rathagajendraturaṅgayuktāṃ\nlakṣmīṃ sadaiva sumukhīṃ pradadāti śambhuḥ",
+      "meaning_hi": "फलश्रुति में कहा गया है कि जो भक्त प्रदोष के समय पूजा के अंत में रावण द्वारा गाया यह स्तोत्र पढ़ता है, उसे शम्भु स्थायी समृद्धि और सौभाग्य का आशीर्वाद देते हैं।",
+      "meaning_en": "The final verse promises that one who recites Ravana’s hymn at the close of worship during twilight receives Shiva’s blessing of lasting prosperity and good fortune."
+    }
+  ]
 }

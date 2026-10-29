@@ -433,3 +433,152 @@
     }
 
 }
+
+/* =========================
+   VERSE NAVIGATION
+========================= */
+
+.verse-navigation {
+    background: var(--surface);
+    border: 1px solid var(--border);
+
+    border-radius: 12px;
+    padding: 22px;
+
+    margin-bottom: 35px;
+}
+
+.navigation-header {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 18px;
+
+    font-size: 13px;
+    color: var(--muted);
+}
+
+.verse-nav-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.verse-nav-btn {
+    width: 42px;
+    height: 42px;
+
+    background: var(--bg);
+    border: 1px solid var(--border);
+
+    color: var(--muted);
+    border-radius: 8px;
+
+    font-size: 13px;
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+.verse-nav-btn:hover {
+    border-color: var(--saffron);
+    color: var(--saffron);
+}
+
+.verse-nav-btn.active {
+    background: var(--saffron);
+    border-color: var(--saffron);
+    color: #111;
+
+    font-weight: 700;
+}
+
+/* =========================
+   PLAY ALL
+========================= */
+
+.play-all-btn {
+    color: var(--saffron);
+    border-color: rgba(255, 153, 51, 0.4);
+}
+
+.play-all-btn.playing {
+    background: var(--saffron);
+    color: #111;
+}
+
+/* =========================
+   BOTTOM NAVIGATION
+========================= */
+
+.bottom-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 15px;
+    margin-top: 50px;
+
+    padding: 25px 0;
+    border-top: 1px solid var(--border);
+}
+
+.navigation-btn {
+    background: var(--surface);
+    border: 1px solid var(--border);
+
+    padding: 12px 20px;
+    border-radius: 8px;
+
+    color: var(--text);
+    cursor: pointer;
+
+    font-size: 13px;
+    transition: 0.2s;
+}
+
+.navigation-btn:hover:not(:disabled) {
+    color: var(--saffron);
+    border-color: var(--saffron);
+}
+
+.navigation-btn:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+#currentVerseIndicator {
+    color: var(--gold);
+    font-size: 13px;
+    text-align: center;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 650px) {
+
+    .verse-navigation {
+        padding: 16px;
+    }
+
+    .verse-nav-btn {
+        width: 38px;
+        height: 38px;
+    }
+
+    .toolbar-right {
+        flex-wrap: wrap;
+    }
+
+    .bottom-navigation {
+        gap: 8px;
+    }
+
+    .navigation-btn {
+        padding: 10px;
+        font-size: 11px;
+    }
+
+}

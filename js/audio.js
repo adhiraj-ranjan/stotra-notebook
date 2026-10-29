@@ -127,6 +127,10 @@ class StotraAudioPlayer {
         // Play / Pause
         playBtn.addEventListener("click", async () => {
 
+            if (this.sequenceCancel) {
+                this.stopSequence();
+            }
+
             if (this.activeAudio && this.activeAudio !== audio) {
                 this.stopPreviousAudio();
             }
@@ -228,6 +232,81 @@ class StotraAudioPlayer {
         });
 
         return container;
+    }
+
+    async playSequence(paths) {
+
+        this.stopSequence();
+
+        if (!paths.length) {
+            return;
+        }
+
+        this.sequenceStopped = false;
+
+        const sequence = [...paths];
+
+        for (const path of sequence) {
+
+            if (this.sequenceStopped) break;
+
+            this.stopPreviousAudio();
+
+            const audio = new Audio(path);
+
+            this.activeAudio = audio;
+            this.activeContainer = null;
+
+            try {
+
+                await new Promise((resolve, reject) => {
+
+                    audio.addEventListener(
+                        "ended",
+                        resolve,
+                        { once: true }
+                    );
+
+                    audio.addEventListener(
+                        "error",
+                        () => reject(new Error(`Audio failed: ${path}`)),
+                        { once: true }
+                    );
+
+                    audio.play().catch(reject);
+
+                    this.sequenceCancel = () => {
+                        audio.pause();
+                        resolve();
+                    };
+
+                });
+
+            } catch (error) {
+
+                console.error(error);
+                this.stopSequence();
+                break;
+
+            }
+
+        }
+
+        this.sequenceCancel = null;
+        this.activeAudio = null;
+        this.activeContainer = null;
+    }
+
+    stopSequence() {
+
+        this.sequenceStopped = true;
+
+        if (this.sequenceCancel) {
+            this.sequenceCancel();
+            this.sequenceCancel = null;
+        }
+
+        this.stopPreviousAudio();
     }
 }
 
