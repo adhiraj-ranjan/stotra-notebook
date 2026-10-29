@@ -1,0 +1,65 @@
+{
+  "id": "rudrashtakam",
+  "title": "Rudrashtakam",
+  "sanskritTitle": "रुद्राष्टकम्",
+  "description": "An eight-verse hymn by Goswami Tulsidas in praise of Lord Shiva, from the Uttara Kanda of the Ramcharitmanas.",
+  "difficulty": "Intermediate",
+  "verses": [
+    {
+      "number": 1,
+      "sanskrit": "नमामीशमीशान निर्वाणरूपं\nविभुं व्यापकं ब्रह्मवेदस्वरूपम्।\nनिजं निर्गुणं निर्विकल्पं निरीहं\nचिदाकाशमाकाशवासं भजेऽहम्॥",
+      "transliteration": "namāmīśamīśāna nirvāṇarūpaṃ\nvibhuṃ vyāpakaṃ brahmavedasvarūpam।\nnijaṃ nirguṇaṃ nirvikalpaṃ nirīhaṃ\ncidākāśam ākāśavāsaṃ bhaje'ham॥",
+      "meaning_hi": "मैं ईशानों के ईश, मोक्षस्वरूप भगवान शिव को प्रणाम करता हूँ। वे सर्वव्यापक, ब्रह्म और वेदों के स्वरूप, अपने आप में स्थित, निर्गुण, भेदरहित और इच्छारहित हैं। मैं उस चेतन आकाशस्वरूप प्रभु की उपासना करता हूँ।",
+      "meaning_en": "I bow to Shiva, the Lord of lords and embodiment of liberation. All-pervading and of the nature of Brahman and the Vedas, he is self-existent, beyond qualities and distinctions, free from desire, and boundless as the sky of consciousness."
+    },
+    {
+      "number": 2,
+      "sanskrit": "निराकारमोंकारमूलं तुरीयं\nगिराज्ञानगोतीतमीशं गिरीशम्।\nकरालं महाकालकालं कृपालं\nगुणागारसंसारपारं नतोऽहम्॥",
+      "transliteration": "nirākāram oṃkāramūlaṃ turīyaṃ\ngirājñānagotītam īśaṃ girīśam।\nkarālaṃ mahākālakālaṃ kṛpālaṃ\nguṇāgārasaṃsārapāraṃ nato'ham॥",
+      "meaning_hi": "मैं निराकार, ॐ के मूल और जाग्रत, स्वप्न तथा सुषुप्ति से परे चौथी अवस्था के स्वरूप शिव को प्रणाम करता हूँ। वे वाणी, ज्ञान और इंद्रियों की पहुँच से परे, पर्वतों के स्वामी, महाकाल के भी काल, करुणामय, गुणों के भंडार और संसार से परे हैं।",
+      "meaning_en": "I bow to the formless source of Om, the transcendent reality beyond ordinary states of awareness. Shiva is beyond the reach of speech, knowledge, and the senses; he is Lord of the mountains, death even to great Time, compassionate, a treasury of virtues, and beyond worldly existence."
+    },
+    {
+      "number": 3,
+      "sanskrit": "तुषाराद्रिसंकाशगौरं गभीरं\nमनोभूतकोटिप्रभाश्रीशरीरम्।\nस्फुरन्मौलिकल्लोलिनी चारुगङ्गा\nलसद्भालबालेन्दु कण्ठे भुजङ्गा॥",
+      "transliteration": "tuṣārādrisaṃkāśagauraṃ gabhīraṃ\nmanobhūtakoṭiprabhāśrīśarīram।\nsphuranmaulikallolinī cārugaṅgā\nlasadbhālabālendu kaṇṭhe bhujaṅgā॥",
+      "meaning_hi": "शिव हिमालय के हिम के समान उज्ज्वल और गंभीर हैं। उनका दिव्य शरीर असंख्य कामदेवों के सौंदर्य से भी अधिक दीप्तिमान है। उनकी जटाओं में सुंदर गंगा लहराती है, मस्तक पर बालचंद्र शोभित है और गले में सर्प विराजते हैं।",
+      "meaning_en": "Shiva is radiant like the snow-clad mountains and profound in nature. His splendid form outshines countless gods of love. The beautiful Ganga flows through his matted hair, a crescent moon shines upon his forehead, and serpents adorn his neck."
+    },
+    {
+      "number": 4,
+      "sanskrit": "चलत्कुण्डलं भ्रूसुनेत्रं विशालं\nप्रसन्नाननं नीलकण्ठं दयालम्।\nमृगाधीशचर्माम्बरं मुण्डमालं\nप्रियं शङ्करं सर्वनाथं भजामि॥",
+      "transliteration": "calatkuṇḍalaṃ bhrūsunetraṃ viśālaṃ\nprasannānanaṃ nīlakaṇṭhaṃ dayālam।\nmṛgādhīśacarmāmbaraṃ muṇḍamālaṃ\npriyaṃ śaṅkaraṃ sarvanāthaṃ bhajāmi॥",
+      "meaning_hi": "मैं उन प्रिय शंकर की आराधना करता हूँ जिनके कानों में झूलते कुण्डल हैं, सुंदर भौंहें और विशाल नेत्र हैं, मुख प्रसन्न है, कंठ नीला है और स्वभाव दयालु है। वे बाघ की खाल पहनते हैं, मुण्डमाला धारण करते हैं और सबके स्वामी हैं।",
+      "meaning_en": "I worship beloved Shankara, whose earrings sway, whose brows and large eyes are beautiful, whose face is serene, and whose throat is blue. Compassionate and Lord of all, he wears a tiger skin and a garland of skulls."
+    },
+    {
+      "number": 5,
+      "sanskrit": "प्रचण्डं प्रकृष्टं प्रगल्भं परेशं\nअखण्डं अजं भानुकोटिप्रकाशम्।\nत्रयःशूलनिर्मूलनं शूलपाणिं\nभजेऽहं भवानीपतिं भावगम्यम्॥",
+      "transliteration": "pracaṇḍaṃ prakṛṣṭaṃ pragalbhaṃ pareśaṃ\nakhaṇḍaṃ ajaṃ bhānukoṭiprakāśam।\ntrayaḥśūlanirmūlanaṃ śūlapāṇiṃ\nbhaje'haṃ bhavānīpatiṃ bhāvagamyam॥",
+      "meaning_hi": "मैं प्रचंड, श्रेष्ठ, निर्भीक, परमेश्वर, अखंड और अजन्मा शिव की भक्ति करता हूँ, जिनका तेज करोड़ों सूर्यों के समान है। त्रिशूलधारी भगवान तीन प्रकार के तापों का नाश करते हैं। भवानी के पति सच्ची भावना और भक्ति से प्राप्त होते हैं।",
+      "meaning_en": "I worship the mighty, supreme, fearless, unborn and indivisible Lord, brilliant as millions of suns. Holding the trident, he removes the three kinds of suffering. The husband of Bhavani is approached through sincere devotion."
+    },
+    {
+      "number": 6,
+      "sanskrit": "कलातीतकल्याणकल्पान्तकारी\nसदा सज्जनानन्ददाता पुरारी।\nचिदानन्दसन्दोहमोहापहारी\nप्रसीद प्रसीद प्रभो मन्मथारी॥",
+      "transliteration": "kalātītakalyāṇakalpāntakārī\nsadā sajjanānandadātā purārī।\ncidānandasandohamohāpahārī\nprasīda prasīda prabho manmathārī॥",
+      "meaning_hi": "हे कलाओं और समय की सीमाओं से परे, कल्याणस्वरूप और कल्प के अंत में संहार करने वाले प्रभु! आप सज्जनों को आनंद देने वाले, त्रिपुर के विनाशक, चेतना और आनंद के पुंज तथा मोह को दूर करने वाले हैं। हे कामदेव के विजेता, मुझ पर प्रसन्न हों।",
+      "meaning_en": "O Lord beyond temporal divisions, source of auspiciousness and bringer of cosmic dissolution! You always grant joy to the virtuous, destroyed Tripura, embody consciousness and bliss, and dispel delusion. O conqueror of the god of desire, be gracious to me."
+    },
+    {
+      "number": 7,
+      "sanskrit": "न यावदुमानाथपादारविन्दं\nभजन्तीह लोके परे वा नराणाम्।\nन तावत्सुखं शान्तिसन्तापनाशं\nप्रसीद प्रभो सर्वभूताधिवासम्॥",
+      "transliteration": "na yāvad umānāthapādāravindaṃ\nbhajantīha loke pare vā narāṇām।\nna tāvat sukhaṃ śāntisantāpanāśaṃ\nprasīda prabho sarvabhūtādhivāsam॥",
+      "meaning_hi": "हे उमा के स्वामी! जब तक मनुष्य आपके चरणकमलों की भक्ति नहीं करते, तब तक उन्हें इस लोक या परलोक में स्थायी सुख, शांति और संताप से मुक्ति नहीं मिलती। हे समस्त प्राणियों में निवास करने वाले प्रभु, कृपा कीजिए।",
+      "meaning_en": "O Lord of Uma, until people worship your lotus feet, they do not find lasting happiness, peace, or freedom from distress in this world or the next. O Lord dwelling within all beings, show your grace."
+    },
+    {
+      "number": 8,
+      "sanskrit": "न जानामि योगं जपं नैव पूजां\nनतोऽहं सदा सर्वदा शम्भु तुभ्यम्।\nजराजन्मदुःखौघतातप्यमानं\nप्रभो पाहि आपन्नमामीश शम्भो॥",
+      "transliteration": "na jānāmi yogaṃ japaṃ naiva pūjāṃ\nnato'haṃ sadā sarvadā śambhu tubhyam।\njarājanmaduḥkhaughatātapyamānaṃ\nprabho pāhi āpannamām īśa śambho॥",
+      "meaning_hi": "हे शम्भु! मैं न योग जानता हूँ, न जप और न ही विधिपूर्वक पूजा। मैं सदा आपको प्रणाम करता हूँ। जन्म, बुढ़ापे और अनेक दुःखों से पीड़ित तथा संकट में पड़े मुझ भक्त की रक्षा कीजिए, हे प्रभु!",
+      "meaning_en": "O Shambhu, I know neither yogic practice, nor chanting, nor formal worship; I bow to you always. Afflicted by birth, old age, and a multitude of sorrows, I seek your protection in my distress, O Lord."
+    }
+  ]
+}

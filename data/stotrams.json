@@ -19,7 +19,7 @@
         "symbol": "ॐ",
         "difficulty": "Intermediate",
         "verses": 8,
-        "status": "coming-soon"
+        "status": "available"
     },
     {
         "id": "lingashtakam",
@@ -30,7 +30,7 @@
         "symbol": "ॐ",
         "difficulty": "Beginner",
         "verses": 8,
-        "status": "coming-soon"
+        "status": "available"
     },
     {
         "id": "shiva-panchakshara",
@@ -41,6 +41,6 @@
         "symbol": "ॐ",
         "difficulty": "Beginner",
         "verses": 5,
-        "status": "coming-soon"
+        "status": "available"
     }
 ]
