@@ -1,0 +1,46 @@
+[
+    {
+        "id": "shiva-tandava",
+        "title": "Shiva Tandava Stotram",
+        "sanskrit": "शिव ताण्डव स्तोत्रम्",
+        "description": "A powerful hymn celebrating Lord Shiva's cosmic Tandava dance.",
+        "deity": "Shiva",
+        "symbol": "ॐ",
+        "difficulty": "Advanced",
+        "verses": null,
+        "status": "available"
+    },
+    {
+        "id": "rudrashtakam",
+        "title": "Rudrashtakam",
+        "sanskrit": "रुद्राष्टकम्",
+        "description": "Eight beautiful verses praising the divine nature of Lord Shiva.",
+        "deity": "Shiva",
+        "symbol": "ॐ",
+        "difficulty": "Intermediate",
+        "verses": 8,
+        "status": "coming-soon"
+    },
+    {
+        "id": "lingashtakam",
+        "title": "Lingashtakam",
+        "sanskrit": "लिङ्गाष्टकम्",
+        "description": "A devotional hymn consisting of eight verses dedicated to the Shiva Lingam.",
+        "deity": "Shiva",
+        "symbol": "ॐ",
+        "difficulty": "Beginner",
+        "verses": 8,
+        "status": "coming-soon"
+    },
+    {
+        "id": "shiva-panchakshara",
+        "title": "Shiva Panchakshara Stotram",
+        "sanskrit": "शिव पञ्चाक्षर स्तोत्रम्",
+        "description": "A devotional hymn based on the five sacred syllables of Namah Shivaya.",
+        "deity": "Shiva",
+        "symbol": "ॐ",
+        "difficulty": "Beginner",
+        "verses": 5,
+        "status": "coming-soon"
+    }
+]

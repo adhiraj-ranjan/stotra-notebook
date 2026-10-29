@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Stotra Notebook | Learn Sanskrit</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/notebook.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+
+            <a href="index.html" class="logo">
+                <span class="logo-icon">ॐ</span>
+                <span>Stotra<span class="highlight">Notebook</span></span>
+            </a>
+
+            <nav class="nav-links">
+                <a href="index.html">← Library</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main class="notebook-container">
+
+        <!-- Notebook Header -->
+        <section class="notebook-header">
+
+            <a href="index.html" class="back-link">
+                ← Back to Library
+            </a>
+
+            <div class="notebook-badge">
+                📖 Interactive Learning Notebook
+            </div>
+
+            <h1 id="stotramTitle">Loading...</h1>
+
+            <p id="stotramDescription"></p>
+
+            <div class="notebook-stats">
+                <span id="verseCount"></span>
+                <span>•</span>
+                <span id="difficulty"></span>
+            </div>
+
+        </section>
+
+        <!-- Notebook Toolbar -->
+        <div class="notebook-toolbar">
+
+            <div class="toolbar-left">
+                <span class="notebook-label">
+                    📓 Learning Notebook
+                </span>
+            </div>
+
+            <div class="toolbar-right">
+                <button id="expandAllBtn" class="toolbar-btn">
+                    Expand All
+                </button>
+
+                <button id="collapseAllBtn" class="toolbar-btn">
+                    Collapse All
+                </button>
+            </div>
+
+        </div>
+
+        <!-- Notebook Cells -->
+        <section id="notebookCells" class="notebook-cells">
+        </section>
+
+    </main>
+
+    <footer>
+        <p>ॐ नमः शिवाय</p>
+        <p>Listen · Learn · Recite · Remember</p>
+    </footer>
+
+    <script src="js/notebook.js"></script>
+
+</body>
+</html>

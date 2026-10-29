@@ -1,0 +1,292 @@
+/* =========================
+   NOTEBOOK LAYOUT
+========================= */
+
+.notebook-container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px 24px 100px;
+}
+
+.back-link {
+    color: var(--muted);
+    font-size: 13px;
+}
+
+.back-link:hover {
+    color: var(--saffron);
+}
+
+.notebook-header {
+    margin-bottom: 50px;
+}
+
+.notebook-badge {
+    display: inline-block;
+
+    margin-top: 35px;
+    margin-bottom: 20px;
+
+    padding: 7px 14px;
+
+    background: rgba(255, 153, 51, 0.08);
+    border: 1px solid rgba(255, 153, 51, 0.2);
+
+    border-radius: 20px;
+
+    font-size: 12px;
+    color: var(--saffron);
+}
+
+.notebook-header h1 {
+    font-size: clamp(30px, 5vw, 46px);
+    margin-bottom: 15px;
+}
+
+.notebook-header > p {
+    color: var(--muted);
+    max-width: 700px;
+}
+
+.notebook-stats {
+    display: flex;
+    gap: 12px;
+
+    margin-top: 20px;
+
+    color: var(--gold);
+    font-size: 13px;
+}
+
+/* =========================
+   TOOLBAR
+========================= */
+
+.notebook-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 15px;
+
+    background: var(--surface);
+    border: 1px solid var(--border);
+
+    padding: 16px 20px;
+    border-radius: 12px;
+
+    margin-bottom: 30px;
+}
+
+.notebook-label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.toolbar-right {
+    display: flex;
+    gap: 10px;
+}
+
+.toolbar-btn {
+    background: transparent;
+    border: 1px solid var(--border);
+
+    padding: 8px 12px;
+    border-radius: 7px;
+
+    color: var(--muted);
+    font-size: 12px;
+
+    transition: 0.2s;
+}
+
+.toolbar-btn:hover {
+    color: var(--saffron);
+    border-color: var(--saffron);
+}
+
+/* =========================
+   NOTEBOOK CELLS
+========================= */
+
+.notebook-cells {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.notebook-cell {
+    display: grid;
+    grid-template-columns: 75px 1fr;
+
+    background: var(--surface);
+    border: 1px solid var(--border);
+
+    border-radius: 12px;
+    overflow: hidden;
+
+    transition: border-color 0.2s;
+}
+
+.notebook-cell:hover {
+    border-color: rgba(255, 153, 51, 0.35);
+}
+
+.cell-number {
+    padding: 28px 10px;
+
+    color: var(--saffron);
+    font-family: monospace;
+    font-size: 12px;
+
+    text-align: center;
+
+    border-right: 1px solid var(--border);
+    background: rgba(0, 0, 0, 0.12);
+}
+
+.cell-content {
+    padding: 30px;
+}
+
+.cell-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+.cell-heading h3 {
+    font-size: 15px;
+    color: var(--muted);
+}
+
+.cell-symbol {
+    color: var(--gold);
+    font-size: 20px;
+}
+
+/* =========================
+   SANSKRIT VERSE
+========================= */
+
+.sanskrit-verse {
+    font-family: "Noto Sans Devanagari", sans-serif;
+
+    font-size: clamp(19px, 2.5vw, 25px);
+    line-height: 2.2;
+
+    color: var(--text);
+    text-align: center;
+
+    padding: 20px 0 35px;
+
+    white-space: pre-line;
+}
+
+/* =========================
+   AUDIO PLACEHOLDER
+========================= */
+
+.audio-controls {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+
+    margin-bottom: 25px;
+}
+
+.audio-btn {
+    padding: 10px 18px;
+
+    background: rgba(255, 153, 51, 0.1);
+    color: var(--saffron);
+
+    border: 1px solid rgba(255, 153, 51, 0.25);
+    border-radius: 8px;
+
+    font-size: 13px;
+}
+
+.audio-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* =========================
+   TRANSLATIONS
+========================= */
+
+.translation-section {
+    border-top: 1px solid var(--border);
+    padding-top: 20px;
+}
+
+.translation-section details {
+    margin-bottom: 15px;
+}
+
+.translation-section summary {
+    cursor: pointer;
+
+    color: var(--gold);
+    font-size: 13px;
+    font-weight: 600;
+
+    padding: 8px 0;
+}
+
+.translation-content {
+    padding: 15px 0;
+
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+.transliteration {
+    font-style: italic;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 650px) {
+
+    .notebook-container {
+        padding: 35px 15px 70px;
+    }
+
+    .notebook-toolbar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .toolbar-right {
+        justify-content: space-between;
+    }
+
+    .notebook-cell {
+        grid-template-columns: 1fr;
+    }
+
+    .cell-number {
+        text-align: left;
+        padding: 12px 20px;
+
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+    }
+
+    .cell-content {
+        padding: 20px;
+    }
+
+    .sanskrit-verse {
+        font-size: 19px;
+    }
+
+}

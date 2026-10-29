@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Stotra Notebook | Learn Sanskrit Stotrams</title>
+
+    <meta name="description"
+          content="An interactive Sanskrit notebook to learn, listen to, and memorize Hindu stotrams.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+
+            <a href="index.html" class="logo">
+                <span class="logo-icon">ॐ</span>
+                <span>Stotra<span class="highlight">Notebook</span></span>
+            </a>
+
+            <nav class="nav-links">
+                <a href="index.html" class="active">Explore</a>
+                <a href="#library">Library</a>
+                <a href="#about">About</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero">
+
+            <div class="hero-badge">
+                ✦ An Open-Source Sanskrit Learning Platform
+            </div>
+
+            <h1>
+                Ancient Verses.<br>
+                <span class="gradient-text">Modern Learning.</span>
+            </h1>
+
+            <p class="hero-description">
+                Discover the beauty of Sanskrit stotrams through
+                interactive notebooks. Listen, understand, practice,
+                and memorize — one verse at a time.
+            </p>
+
+            <a href="#library" class="primary-btn">
+                Explore Stotrams →
+            </a>
+
+            <div class="sanskrit-quote">
+                ॐ नमः शिवाय
+            </div>
+
+        </section>
+
+        <!-- Library -->
+        <section id="library" class="library-section">
+
+            <div class="section-header">
+
+                <div>
+                    <p class="section-label">THE COLLECTION</p>
+                    <h2>Explore Stotrams</h2>
+                    <p class="section-description">
+                        Choose a stotram to begin your learning journey.
+                    </p>
+                </div>
+
+                <div class="search-wrapper">
+                    <input
+                        type="search"
+                        id="searchInput"
+                        placeholder="Search stotrams..."
+                        aria-label="Search stotrams"
+                    >
+                </div>
+
+            </div>
+
+            <!-- Dynamically generated cards -->
+            <div id="stotramGrid" class="stotram-grid"></div>
+
+            <p id="emptyState" class="empty-state" hidden>
+                No stotrams found.
+            </p>
+
+        </section>
+
+        <!-- About -->
+        <section id="about" class="about-section">
+
+            <div class="about-content">
+
+                <span class="about-symbol">ॐ</span>
+
+                <h2>Learn at Your Own Pace</h2>
+
+                <p>
+                    Stotra Notebook combines traditional Sanskrit
+                    literature with modern learning techniques.
+                    Our mission is to make ancient verses accessible
+                    to everyone.
+                </p>
+
+                <div class="feature-grid">
+
+                    <div class="feature">
+                        <span>📖</span>
+                        <h3>Read</h3>
+                        <p>Explore Sanskrit verses and meanings.</p>
+                    </div>
+
+                    <div class="feature">
+                        <span>🎧</span>
+                        <h3>Listen</h3>
+                        <p>Practice with verse-by-verse audio.</p>
+                    </div>
+
+                    <div class="feature">
+                        <span>🧠</span>
+                        <h3>Memorize</h3>
+                        <p>Track progress and master each verse.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>ॐ सर्वे भवन्तु सुखिनः</p>
+        <p>Made with devotion · Open Source</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>

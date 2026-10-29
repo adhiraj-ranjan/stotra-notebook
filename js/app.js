@@ -1,0 +1,133 @@
+const stotramGrid = document.getElementById("stotramGrid");
+const searchInput = document.getElementById("searchInput");
+const emptyState = document.getElementById("emptyState");
+
+let stotrams = [];
+
+// Load stotrams from JSON
+async function loadStotrams() {
+    try {
+        const response = await fetch("data/stotrams.json");
+
+        if (!response.ok) {
+            throw new Error("Failed to load stotrams");
+        }
+
+        stotrams = await response.json();
+
+        renderStotrams(stotrams);
+
+    } catch (error) {
+        console.error("Error loading stotrams:", error);
+
+        emptyState.textContent =
+            "Unable to load the stotram library. Please refresh the page.";
+
+        emptyState.hidden = false;
+    }
+}
+
+// Create stotram cards
+function renderStotrams(items) {
+
+    stotramGrid.innerHTML = "";
+
+    emptyState.textContent = "No stotrams found.";
+    emptyState.hidden = items.length > 0;
+
+    items.forEach(stotram => {
+
+        const card = document.createElement("article");
+        card.className = "stotram-card";
+
+        const top = document.createElement("div");
+        top.className = "card-top";
+
+        const symbol = document.createElement("div");
+        symbol.className = "card-symbol";
+        symbol.textContent = stotram.symbol;
+
+        const difficulty = document.createElement("span");
+        difficulty.className = "difficulty";
+        difficulty.textContent = stotram.difficulty;
+
+        top.append(symbol, difficulty);
+
+        const title = document.createElement("h3");
+        title.textContent = stotram.title;
+
+        const sanskrit = document.createElement("p");
+        sanskrit.className = "card-sanskrit";
+        sanskrit.textContent = stotram.sanskrit;
+
+        const description = document.createElement("p");
+        description.className = "card-description";
+        description.textContent = stotram.description;
+
+        const footer = document.createElement("div");
+        footer.className = "card-footer";
+
+        const count = document.createElement("span");
+        count.className = "verse-count";
+
+        count.textContent = stotram.verses
+            ? `${stotram.verses} Verses`
+            : "Verse count varies";
+
+        const action = document.createElement("span");
+        action.className = "open-btn";
+
+        action.textContent = stotram.status === "available"
+            ? "Open Notebook →"
+            : "Coming Soon";
+
+        footer.append(count, action);
+
+        card.append(
+            top,
+            title,
+            sanskrit,
+            description,
+            footer
+        );
+
+        // Notebook navigation will be enabled in Phase 2.
+        if (stotram.status === "available") {
+            const link = document.createElement("a");
+
+            link.href =
+                `notebook.html?id=${encodeURIComponent(stotram.id)}`;
+
+            link.appendChild(card);
+            stotramGrid.appendChild(link);
+
+        } else {
+            stotramGrid.appendChild(card);
+        }
+
+    });
+}
+
+// Search functionality
+searchInput.addEventListener("input", event => {
+
+    const query = event.target.value
+        .trim()
+        .toLocaleLowerCase();
+
+    const filtered = stotrams.filter(stotram => {
+
+        return (
+            stotram.title.toLocaleLowerCase().includes(query) ||
+            stotram.sanskrit.includes(query) ||
+            stotram.description.toLocaleLowerCase().includes(query) ||
+            stotram.deity.toLocaleLowerCase().includes(query)
+        );
+
+    });
+
+    renderStotrams(filtered);
+});
+
+// Initialize
+loadStotrams();
