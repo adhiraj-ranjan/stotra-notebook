@@ -15,7 +15,8 @@ async function loadStotrams() {
 
         stotrams = await response.json();
 
-        renderStotrams(stotrams);
+        // renderStotrams(stotrams);
+        filterStotrams();
 
     } catch (error) {
         console.error("Error loading stotrams:", error);
@@ -109,25 +110,47 @@ function renderStotrams(items) {
 }
 
 // Search functionality
-searchInput.addEventListener("input", event => {
-
-    const query = event.target.value
-        .trim()
-        .toLocaleLowerCase();
-
-    const filtered = stotrams.filter(stotram => {
-
-        return (
-            stotram.title.toLocaleLowerCase().includes(query) ||
-            stotram.sanskrit.includes(query) ||
-            stotram.description.toLocaleLowerCase().includes(query) ||
-            stotram.deity.toLocaleLowerCase().includes(query)
-        );
-
-    });
-
-    renderStotrams(filtered);
-});
+searchInput.addEventListener("input", filterStotrams);
 
 // Initialize
 loadStotrams();
+
+function filterStotrams() {
+    const searchTerm = document
+        .getElementById("searchInput")
+        .value
+        .toLowerCase()
+        .trim();
+
+    const filtered = stotrams.filter(stotram => {
+        const matchesCategory =
+            selectedCategory === "all" ||
+            stotram.deity?.toLowerCase() === selectedCategory.toLowerCase();
+
+        const matchesSearch = [
+            stotram.title,
+            stotram.sanskrit,
+            stotram.description,
+            stotram.deity
+        ].some(value =>
+            String(value || "").toLowerCase().includes(searchTerm)
+        );
+
+        return matchesCategory && matchesSearch;
+    });
+
+    renderStotrams(filtered);
+}
+
+document.querySelectorAll(".category-btn").forEach(button => {
+    button.addEventListener("click", () => {
+        document.querySelectorAll(".category-btn").forEach(btn => {
+            btn.classList.remove("active");
+        });
+
+        button.classList.add("active");
+        selectedCategory = button.dataset.category;
+
+        filterStotrams();
+    });
+});
