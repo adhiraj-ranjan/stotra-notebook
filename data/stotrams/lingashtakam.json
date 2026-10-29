@@ -1,0 +1,71 @@
+{
+  "id": "lingashtakam",
+  "title": "Lingashtakam",
+  "sanskritTitle": "लिङ्गाष्टकम्",
+  "description": "Eight verses in praise of the Shiva Linga, followed traditionally by a closing phalashruti.",
+  "difficulty": "Beginner",
+  "verses": [
+    {
+      "number": 1,
+      "sanskrit": "ब्रह्ममुरारिसुरार्चितलिङ्गं\nनिर्मलभासितशोभितलिङ्गम्।\nजन्मजदुःखविनाशकलिङ्गं\nतत्प्रणमामि सदाशिवलिङ्गम्॥",
+      "transliteration": "brahmamurārisurārcitaliṅgaṃ\nnirmalabhāsitaśobhitaliṅgam |\njanmajaduḥkhavināśakaliṅgaṃ\ntatpraṇamāmi sadāśivaliṅgam ||",
+      "meaning_hi": "मैं उस सदाशिवलिंग को प्रणाम करता हूँ जिसकी पूजा ब्रह्मा, विष्णु और देवता करते हैं, जो निर्मल तेज से शोभित है और जन्म से जुड़े दुखों को दूर करने वाला माना जाता है।",
+      "meaning_en": "I bow to the linga of Sadashiva, worshipped by Brahma, Vishnu and the gods, radiant with purity and revered as the remover of suffering associated with birth."
+    },
+    {
+      "number": 2,
+      "sanskrit": "देवमुनिप्रवरार्चितलिङ्गं\nकामदहं करुणाकरलिङ्गम्।\nरावणदर्पविनाशनलिङ्गं\nतत्प्रणमामि सदाशिवलिङ्गम्॥",
+      "transliteration": "devamunipravarārcitaliṅgaṃ\nkāmadahaṃ karuṇākaraliṅgam |\nrāvaṇadarpavināśanaliṅgaṃ\ntatpraṇamāmi sadāśivaliṅgam ||",
+      "meaning_hi": "मैं उस सदाशिवलिंग को प्रणाम करता हूँ जिसकी देवता और श्रेष्ठ मुनि आराधना करते हैं, जो कामनाओं का दहन करने वाला और करुणा का स्रोत है तथा जिसने रावण के अहंकार का नाश किया।",
+      "meaning_en": "I bow to Sadashiva's linga, adored by gods and eminent sages, which burns away desire, embodies compassion and overcomes Ravana's pride."
+    },
+    {
+      "number": 3,
+      "sanskrit": "सर्वसुगन्धिसुलेपितलिङ्गं\nबुद्धिविवर्धनकारणलिङ्गम्।\nसिद्धसुरासुरवन्दितलिङ्गं\nतत्प्रणमामि सदाशिवलिङ्गम्॥",
+      "transliteration": "sarvasugandhisulepitaliṅgaṃ\nbuddhivivardhanakāraṇaliṅgam |\nsiddhasurāsuravanditaliṅgaṃ\ntatpraṇamāmi sadāśivaliṅgam ||",
+      "meaning_hi": "मैं उस सदाशिवलिंग को प्रणाम करता हूँ जो सुगंधित द्रव्यों से अभिषिक्त है, बुद्धि की वृद्धि का कारण माना जाता है और जिसकी सिद्ध, देवता तथा असुर भी वंदना करते हैं।",
+      "meaning_en": "I bow to the linga of Sadashiva, anointed with fragrant substances, regarded as a source of growing wisdom and honored by perfected beings, gods and asuras."
+    },
+    {
+      "number": 4,
+      "sanskrit": "कनकमहामणिभूषितलिङ्गं\nफणिपतिवेष्टितशोभितलिङ्गम्।\nदक्षसुयज्ञविनाशनलिङ्गं\nतत्प्रणमामि सदाशिवलिङ्गम्॥",
+      "transliteration": "kanakamahāmaṇibhūṣitaliṅgaṃ\nphaṇipativeṣṭitaśobhitaliṅgam |\ndakṣasuyajñavināśanaliṅgaṃ\ntatpraṇamāmi sadāśivaliṅgam ||",
+      "meaning_hi": "मैं उस सदाशिवलिंग को प्रणाम करता हूँ जो स्वर्ण और बहुमूल्य रत्नों से अलंकृत है, नागराज के लिपटे होने से सुशोभित है और जो दक्ष के यज्ञ के विनाश की कथा से जुड़ा है।",
+      "meaning_en": "I bow to the linga of Sadashiva, adorned with gold and precious gems, beautified by the coiled serpent king and associated with the destruction of Daksha's sacrifice."
+    },
+    {
+      "number": 5,
+      "sanskrit": "कुङ्कुमचन्दनलेपितलिङ्गं\nपङ्कजहारसुशोभितलिङ्गम्।\nसञ्चितपापविनाशनलिङ्गं\nतत्प्रणमामि सदाशिवलिङ्गम्॥",
+      "transliteration": "kuṅkumacandanalepitaliṅgaṃ\npaṅkajahārasuśobhitaliṅgam |\nsañcitapāpavināśanaliṅgaṃ\ntatpraṇamāmi sadāśivaliṅgam ||",
+      "meaning_hi": "मैं उस सदाशिवलिंग को प्रणाम करता हूँ जिस पर कुमकुम और चंदन का लेप है, जो कमल की माला से सुशोभित है और संचित पापों का नाश करने वाला माना जाता है।",
+      "meaning_en": "I bow to the linga of Sadashiva, anointed with vermilion and sandalwood, adorned with a garland of lotuses and revered as the destroyer of accumulated wrongdoing."
+    },
+    {
+      "number": 6,
+      "sanskrit": "देवगणार्चितसेवितलिङ्गं\nभावैर्भक्तिभिरेव च लिङ्गम्।\nदिनकरकोटिप्रभाकरलिङ्गं\nतत्प्रणमामि सदाशिवलिङ्गम्॥",
+      "transliteration": "devagaṇārcitasevitaliṅgaṃ\nbhāvairbhaktibhireva ca liṅgam |\ndinakarakoṭiprabhākaraliṅgaṃ\ntatpraṇamāmi sadāśivaliṅgam ||",
+      "meaning_hi": "मैं उस सदाशिवलिंग को प्रणाम करता हूँ जिसकी देवगण श्रद्धा और भक्ति से सेवा-पूजा करते हैं और जिसका प्रकाश करोड़ों सूर्यों के समान बताया गया है।",
+      "meaning_en": "I bow to the linga of Sadashiva, worshipped by hosts of divine beings with heartfelt devotion and described as shining with the brilliance of millions of suns."
+    },
+    {
+      "number": 7,
+      "sanskrit": "अष्टदलोपरिवेष्टितलिङ्गं\nसर्वसमुद्भवकारणलिङ्गम्।\nअष्टदरिद्रविनाशनलिङ्गं\nतत्प्रणमामि सदाशिवलिङ्गम्॥",
+      "transliteration": "aṣṭadalopariveṣṭitaliṅgaṃ\nsarvasamudbhavakāraṇaliṅgam |\naṣṭadaridravināśanaliṅgaṃ\ntatpraṇamāmi sadāśivaliṅgam ||",
+      "meaning_hi": "मैं उस सदाशिवलिंग को प्रणाम करता हूँ जो आठ पंखुड़ियों वाले कमल से घिरा है, समस्त सृष्टि की उत्पत्ति का कारण माना जाता है और आठ प्रकार की दरिद्रता का नाश करने वाला कहा गया है।",
+      "meaning_en": "I bow to the linga of Sadashiva, surrounded by an eight-petalled lotus, regarded as the source of all creation and said to dispel eight forms of poverty."
+    },
+    {
+      "number": 8,
+      "sanskrit": "सुरगुरुसुरवरपूजितलिङ्गं\nसुरवनपुष्पसदार्चितलिङ्गम्।\nपरात्परं परमात्मकलिङ्गं\nतत्प्रणमामि सदाशिवलिङ्गम्॥",
+      "transliteration": "suragurusuravarapūjitaliṅgaṃ\nsuravanapuṣpasadārcitaliṅgam |\nparātparaṃ paramātmakaliṅgaṃ\ntatpraṇamāmi sadāśivaliṅgam ||",
+      "meaning_hi": "मैं उस सदाशिवलिंग को प्रणाम करता हूँ जिसकी देवगुरु और श्रेष्ठ देवता पूजा करते हैं, जो दिव्य वन के पुष्पों से सदा अर्चित है और जो परम से भी परे परमात्मा का प्रतीक है।",
+      "meaning_en": "I bow to the linga of Sadashiva, worshipped by the divine preceptor and foremost gods, continually offered celestial flowers and representing the supreme Self beyond all that is exalted."
+    }
+  ],
+  "phalashruti": {
+    "sanskrit": "लिङ्गाष्टकमिदं पुण्यं यः पठेच्छिवसन्निधौ।\nशिवलोकमवाप्नोति शिवेन सह मोदते॥",
+    "transliteration": "liṅgāṣṭakamidaṃ puṇyaṃ yaḥ paṭhecchivasannidhau |\nśivalokamavāpnoti śivena saha modate ||",
+    "meaning_hi": "फलश्रुति के अनुसार जो व्यक्ति शिव के सान्निध्य में इस पवित्र लिङ्गाष्टकम् का पाठ करता है, वह शिवलोक को प्राप्त होकर शिव के साथ आनंदित होता है।",
+    "meaning_en": "The concluding verse says that one who recites this sacred Lingashtakam in Shiva’s presence attains Shiva’s realm and rejoices in his company."
+  }
+}
