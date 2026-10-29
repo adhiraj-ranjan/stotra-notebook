@@ -73,11 +73,7 @@ function renderNotebook(verses) {
 
                 <div class="sanskrit-verse"></div>
 
-                <div class="audio-controls">
-                    <button class="audio-btn" disabled>
-                        ▶ Audio Coming Soon
-                    </button>
-                </div>
+                <div class="audio-controls"></div>
 
                 <div class="translation-section">
 
@@ -112,6 +108,21 @@ function renderNotebook(verses) {
 
         cell.querySelector(".english-meaning").textContent =
             verse.meaning_en;
+        
+        // Create audio player for this verse
+        const audioContainer = cell.querySelector(".audio-controls");
+
+        if (verse.audio) {
+
+            const player = stotraAudioPlayer.createPlayer(verse.audio);
+
+            audioContainer.appendChild(player);
+
+        } else {
+
+            audioContainer.textContent = "Audio coming soon";
+
+        }
 
         notebookCells.appendChild(cell);
 
